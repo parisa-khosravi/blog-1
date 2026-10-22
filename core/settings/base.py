@@ -29,6 +29,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    #My App
+    'account',
 ]
 
 MIDDLEWARE = [
@@ -130,5 +133,7 @@ MAILERS = {
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
+AUTH_USER_MODEL = 'account.User'
 
-AUTH_USER_MODEL = 'account.user'
+
+
