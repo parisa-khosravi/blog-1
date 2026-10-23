@@ -33,6 +33,7 @@ INSTALLED_APPS = [
     #My App
     'account',
     'web',
+    'user',
 ]
 
 MIDDLEWARE = [
